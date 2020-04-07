@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Wremena';
+  src: url('fonts/WremenaLight.woff') format('woff');
+  font-weight: 300;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Wremena', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.work {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.work img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 4vh 3vw 8vh;
+  object-fit: contain;
+}
+.work .description {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.contact {
+  position: absolute;
+  right: 2%;
+  bottom: 6%;
+  width: 40%;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+  }
+  .overlay,
+  .contact {
+    filter: invert(1);
+  }
+  .work .description {
+    color: white;
+  }
+}
