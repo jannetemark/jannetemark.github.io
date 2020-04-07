@@ -100,7 +100,7 @@ const works = [
     filename: `red_rock_poster_2019.jpg`,
   },
   {
-    title: `Territories, poster,2019`,
+    title: `Territories, poster, 2019`,
     filename: `territoriesposter2019.jpg`,
   },
   {
@@ -148,7 +148,7 @@ const works = [
     filename: `volcano_maps_publication_2020.jpg`,
   },
   {
-    title: `Volcano poetry, publication,2020`,
+    title: `Volcano poetry, publication, 2020`,
     filename: `volcano_poetry_publication2020.jpg`,
   },
 ];
