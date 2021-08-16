@@ -18,5 +18,5 @@ contact.addEventListener("mouseleave", (event) => {
 });
 
 setTimeout(() => {
-  alert("So... what are you waiting for?");
+  alert("So... what are you waiting for? Reload the page to see more works!");
 }, 60000);
