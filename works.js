@@ -115,4 +115,8 @@ const works = [
     title: `Eternal Love Triangle, poster, Werkplaats TypografiexSandberg Institute, the Netherlands, 2019`,
     filename: `eternal_love_triangle_poster_2019.jpg`,
   },
+  {
+    title: `Volcano Milk, drawing, 2021`,
+    filename: `volcano_milk.jpg`,
+  },
 ];
