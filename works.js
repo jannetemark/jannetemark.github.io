@@ -119,8 +119,4 @@ const works = [
     title: `Volcano Milk, drawing, 2021`,
     filename: `volcano_milk.jpg`,
   },
-  {
-    title: `Endless Cycle, animation, 2021`,
-    filename: `steel sound 480p.mov`,
-  },
 ];
